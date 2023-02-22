@@ -65,16 +65,16 @@ def sterge_comanda(id):
     conn.commit()
 
 # Exemplu de utilizare a functiilor
-adauga_utilizator("Ioana Popescu", "ioana.popescu@example.com", "password")
-adauga_utilizator("Alexandru Ionescu", "alexandru.ionescu@example.com", "password")
+adauga_utilizator("Ioana Popescu", "ioana.popescu@example.com", "password123")
+adauga_utilizator("Alexandru Ionescu", "alexandru.ionescu@example.com", "password!@#")
 lista_utilizatori()
 sterge_utilizator(1)
 lista_utilizatori()
 
-adauga_produs("Product 1", "Description 1", 9.99)
-adauga_produs("Product 2", "Description 2", 19.99)
-adauga_produs("Product 3", "Description 3", 39.99)
-adauga_produs("Product 4", "Description 4", 29.99)
+adauga_produs("Fenomenul Pitesti", "Ceea ce s-a petrecut la inchisoarea din Pitesti intre 1949 si 1952 merita un loc aparte in inspaimantatorul repertoriu al ororilor concentrationare ale veacului al XX-lea.", 18.5)
+adauga_produs("Curiozitati romane", "Bazandu-ne pe lectiile de istorie sau pe lecturile adiacente, le-am rezervat romanilor un loc fix si confortabil in memoria colectiva.", 26.94)
+adauga_produs("Spartanii", "Cum erau cu adevarat spartanii la apogeul puterii lor (550-371 i.Hr.).", 18.45)
+adauga_produs("Templierii", "La apogeul sau, Ordinul Cavalerilor Templieri rivaliza, ca putere economica, influenta politica si forta militara, cu regatele Europei.", 22.45)
 lista_produse()
 sterge_produs(1)
 lista_produse()
